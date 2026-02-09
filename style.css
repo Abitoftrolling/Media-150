@@ -1,0 +1,24 @@
+body {
+    background-image: url('pictures/aura.jpg');
+    background-color: #e4e0e0;
+}
+
+h1 {
+    font-family: 'Arial Narrow Bold';
+    font-size: 32px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    background-color: rgba(235, 232, 232, 0.874);
+    font-variant: small-caps;
+}
+
+p,
+h3,
+li {
+    font-variant: small-caps;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(40, 39, 39, 0.874);
+    color: azure;
+}
