@@ -12,7 +12,6 @@ h1 {
     background-color: rgba(235, 232, 232, 0.874);
     font-variant: small-caps;
 }
-
 p,
 h3,
 li {
@@ -21,4 +20,9 @@ li {
     justify-content: center;
     background-color: rgba(40, 39, 39, 0.874);
     color: azure;
+}
+a{
+    font-weight: bold;
+    text-decoration: dotted;
+    color:rgb(152, 41, 174)
 }
