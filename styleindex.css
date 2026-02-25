@@ -1,5 +1,5 @@
 body {
-    background-image: url('pictures/aura.jpg');
+    background-image: url('pictures/coarsepaper.jpg');
     background-color: #e4e0e0;
 }
 
@@ -8,7 +8,7 @@ h1 {
     font-size: 32px;
     padding: 5px;
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
     background-color: rgba(235, 232, 232, 0.874);
     font-variant: small-caps;
 }
@@ -18,8 +18,8 @@ li {
     font-variant: small-caps;
     display: flex;
     justify-content: center;
-    background-color: rgba(40, 39, 39, 0.874);
-    color: azure;
+    background-color: rgba(235, 232, 232, 0.874);
+    color: rgb(48, 52, 52);
 }
 a{
     font-weight: bold;
