@@ -1,0 +1,90 @@
+.image-map-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; 
+}
+
+.image-map-container img {
+    width: 100%;
+    display: block;
+}
+
+h2 {
+    position: absolute;
+    top: 20px;         
+    width: 100%;       
+    text-align: center;
+    margin: 0;
+    color: white;      
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+    z-index: 10;
+    pointer-events: none; 
+}
+
+
+h2:first-of-type {
+    top: 60px;
+}
+
+h2:nth-of-type(2) {
+    top: 120px; /* Adjust this number based on your font size */
+    font-size: 20px; 
+}
+
+
+.hitbox {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 25%; 
+    
+    z-index: 1;
+
+    /* Styling */
+    background-color: gray; 
+    text-decoration: none; 
+    color: white;          
+    display: flex;         
+    align-items: center;   
+    justify-content: center; 
+    text-align: center;
+    padding: 10px;
+    opacity: 0.8;          
+    transition: background-color 0.3s;
+    font-size: 30px;
+}
+
+
+.left { left: 0; }
+.right { right: 0; }
+.center{ center: 0;}
+
+.hitbox:hover {
+    background-color: #555; 
+    opacity: 1; 
+}
+
+button {
+  background-color: #b9971d;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Lucida Console", "Courier New", monospace;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;         
+    width: 100%;       
+    text-align: center;
+    margin: 0;
+    color: white;      
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+    z-index: 10;
+    pointer-events: none; 
+}
